@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="324348" started-at="2024-02-23T20:32:16 IST" finished-at="2024-02-23T20:37:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="324348" started-at="2024-02-23T20:32:16 IST" finished-at="2024-02-23T20:37:41 IST">
+      <class name="com.pge.application.test.TAMI_QuickSearch_Airports_Test">
+        <test-method status="PASS" signature="getReportObject(org.testng.ITestContext)[pri:0, instance:com.pge.application.test.TAMI_QuickSearch_Airports_Test@770c2e6b]" name="getReportObject" is-config="true" duration-ms="1083" started-at="2024-02-23T20:32:15 IST" finished-at="2024-02-23T20:32:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@593e824f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReportObject -->
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:com.pge.application.test.TAMI_QuickSearch_Airports_Test@770c2e6b]" name="reportsetup" is-config="true" duration-ms="2646" started-at="2024-02-23T20:32:16 IST" finished-at="2024-02-23T20:32:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="functionalTest(java.util.Hashtable,org.testng.ITestContext)[pri:0, instance:com.pge.application.test.TAMI_QuickSearch_Airports_Test@770c2e6b]" name="functionalTest" duration-ms="319531" started-at="2024-02-23T20:32:20 IST" data-provider="testDataProvider" finished-at="2024-02-23T20:37:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test_Environment=PROD, SelectField=, Remarks=, HeaderText=Tactical Analysis Mapping Integration, Condition=, EndPoint=https://geomartcloud-enterprise.ss.pge.com/geohub/rest/services/geohub/POI/MapServer/0/query?where=1%3D1&text=&objectIds=&time=&timeRelation=esriTimeRelationOverlaps&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&distance=&units=esriSRUnit_Foot&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&havingClause=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&returnExtentOnly=false&sqlFormat=none&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&featureEncoding=esriDefault&f=html, SearchCriteria1=Airports, Exe_Medium=Web, EndPointSearchCriteria=iso_country_code, LayerName=Airports, SearchText=, EndPointQueryWhere=, Browser=Edge, TestCaseName=TAMI_QuickSearch_Airports_Test, ModuleName=TAMI}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@593e824f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTest -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.pge.application.test.TAMI_QuickSearch_Airports_Test@770c2e6b]" name="flushReport" is-config="true" duration-ms="1064" started-at="2024-02-23T20:37:39 IST" finished-at="2024-02-23T20:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.pge.application.test.TAMI_QuickSearch_Airports_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
